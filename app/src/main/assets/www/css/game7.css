@@ -1,0 +1,21 @@
+.object {
+    position: relative;
+    display: grid;
+    top: 15%;
+    left: 15%;
+    width: 70%;
+    height: 80%;
+    margin: 0%;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(auto-fit,minmax(35%,35%));
+    grid-column-gap: 9.5%;
+    grid-row-gap: 0%;
+}
+.item>p{
+    position: absolute;
+    top:10%;
+    width: 100%;
+}
+.item{
+    text-align: center;
+}

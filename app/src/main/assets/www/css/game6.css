@@ -1,0 +1,59 @@
+#container5{ 
+    position: relative;
+    top:10%;
+    left:0px;
+    display: grid;
+    width:100%;
+    height:75%;
+    margin: 0%;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(auto-fit,minmax(30%,auto));
+    padding: 0% 0% 0% 0%;
+}
+.rightmove:hover{
+    /* Choose the animation */
+    animation-name: right_move;
+    /* The animation’s duration */
+    animation-duration: 4000ms;
+    /* The number of times we want
+        the animation to run */
+    animation-iteration-count: 1;
+    /* Causes the animation to reverse
+        on every odd iteration */
+    animation-direction: normal;
+    animation-timing-function: ease-out;
+    animation-fill-mode: none;
+    z-index: 1;
+}
+.leftmove:hover{
+    /* Choose the animation */
+    animation-name: left_move;
+    /* The animation’s duration */
+    animation-duration: 4000ms;
+    /* The number of times we want
+        the animation to run */
+    animation-iteration-count: 1;
+    /* Causes the animation to reverse
+        on every odd iteration */
+    animation-direction: normal;
+    animation-timing-function: ease-out;
+    animation-fill-mode: none;
+    z-index: 1;
+
+}
+@keyframes right_move {
+	0% {
+        left:0%;
+	}
+	100% {
+        left:1200px;
+	}
+}
+@keyframes left_move {
+	0% {
+        left:0%;
+	}
+	100% {
+        left:-1200px;
+	}
+}

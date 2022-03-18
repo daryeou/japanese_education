@@ -1,0 +1,77 @@
+.object {
+    position: relative;
+    top: 24%;
+    left: 3%;
+    display: grid;
+    width: 90%;
+    height: 40%;
+    margin: 0%;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(auto-fit,minmax(10%,auto));
+    grid-gap: 10%;
+}
+.paintAction{
+    
+}
+.item{
+    width: 100%;;
+}
+.item>p{
+    position: absolute;
+    top:60%;
+    width: 100%;
+}
+.temp_size{
+    grid-gap:21% !important;
+}
+
+#menu {
+    position: absolute;
+    top: 10%;
+    left:0%;
+    display: grid;
+    width:20%;
+    max-height:30%;
+    margin: 0%;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(auto-fit,minmax(10%,auto));
+}
+
+#number{
+    position: absolute;
+    height:100%;
+    width:50%;
+    max-height: 100%;
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+
+#numimg{
+    position: absolute;
+    width:100%;
+    height: auto;
+    margin:auto;
+    top:0;
+    bottom:0;
+}
+
+#menu {
+    position: absolute;
+    top: 10%;
+    left:0%;
+    display: grid;
+    width:20%;
+    max-height:30%;
+    margin: 0%;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(auto-fit,minmax(10%,auto));
+}
+.button{
+    width:100%;
+}
+.button>*{
+    width:100%;
+}

@@ -1,0 +1,411 @@
+.fadeIn {
+    /* Choose the animation */
+    animation-name: FadeIn;
+    /* The animation’s duration */
+    animation-duration: 800ms;
+    /* The number of times we want
+        the animation to run */
+    animation-iteration-count: 1;
+    /* Causes the animation to reverse
+        on every odd iteration */
+    animation-direction: normal;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}  
+.fadeOut {
+    /* Choose the animation */
+    animation-name: FadeOut;
+    /* The animation’s duration */
+    animation-duration: 800ms;
+    /* The number of times we want
+        the animation to run */
+    animation-iteration-count: 1;
+    /* Causes the animation to reverse
+        on every odd iteration */
+    animation-direction: normal;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+.opacity {
+  /* Choose the animation */
+  animation-name: Opacity;
+  /* The animation’s duration */
+  animation-duration: 1000ms;
+  /* The number of times we want
+      the animation to run */
+  animation-iteration-count: 1;
+  /* Causes the animation to reverse
+      on every odd iteration */
+  animation-direction: normal;
+  animation-timing-function: ease-out;
+  animation-fill-mode: none;
+} 
+.opacityReverse {
+  /* Choose the animation */
+  animation-name: Opacity;
+  /* The animation’s duration */
+  animation-duration: 1000ms;
+  /* The number of times we want
+      the animation to run */
+  animation-iteration-count: 1;
+  /* Causes the animation to reverse
+      on every odd iteration */
+  animation-direction: Reverse;
+  animation-timing-function: ease-out;
+  animation-fill-mode: none;
+}  
+.opacityAlternate {
+  /* Choose the animation */
+  animation-name: Opacity;
+  /* The animation’s duration */
+  animation-duration: 1000ms;
+  /* The number of times we want
+      the animation to run */
+  animation-iteration-count: 2;
+  /* Causes the animation to reverse
+      on every odd iteration */
+  animation-direction: alternate;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}  
+.rotateBoth{
+  /* Choose the animation */
+  animation-name: rotate_Both;
+  /* The animation’s duration */
+  animation-duration: 1000ms;
+  /* The number of times we want
+      the animation to run */
+  animation-iteration-count: infinite;
+  /* Causes the animation to reverse
+      on every odd iteration */
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: none;
+}
+.rotateRight{
+      /* Choose the animation */
+      animation-name: rotate_Right;
+      /* The animation’s duration */
+      animation-duration: 1000ms;
+      /* The number of times we want
+          the animation to run */
+      animation-iteration-count: infinite;
+      /* Causes the animation to reverse
+          on every odd iteration */
+      animation-direction: alternate;
+      animation-timing-function: ease-out;
+      animation-fill-mode: none;
+}
+.rotateLeft{
+  /* Choose the animation */
+  animation-name: rotate_Left;
+  /* The animation’s duration */
+  animation-duration: 1000ms;
+  /* The number of times we want
+      the animation to run */
+  animation-iteration-count: infinite;
+  /* Causes the animation to reverse
+      on every odd iteration */
+  animation-direction: alternate;
+  animation-timing-function: ease-out;
+  animation-fill-mode: none;
+}
+.rotateRight2{
+  /* Choose the animation */
+  animation-name: rotate_Right_delay;
+  /* The animation’s duration */
+  animation-duration: 1500ms;
+  /* The number of times we want
+      the animation to run */
+  animation-iteration-count: infinite;
+  /* Causes the animation to reverse
+      on every odd iteration */
+  animation-direction: alternate;
+  animation-timing-function: ease-out;
+  animation-fill-mode: none;
+}
+.rotateLeft2{
+/* Choose the animation */
+animation-name: rotate_Left_delay;
+/* The animation’s duration */
+animation-duration: 1500ms;
+/* The number of times we want
+  the animation to run */
+animation-iteration-count: infinite;
+/* Causes the animation to reverse
+  on every odd iteration */
+animation-direction: alternate;
+animation-timing-function: ease-out;
+animation-fill-mode: none;
+}
+.moveUp{
+  /* Choose the animation */
+  animation-name: moveUp;
+  animation-direction: normal;
+  /* The animation’s duration */
+  animation-duration: 5000ms;
+  /* The number of times we want
+      the animation to run */
+  animation-iteration-count: 1;
+  /* Causes the animation to reverse
+      on every odd iteration */
+  animation-direction: normal;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+.moveDown{
+  /* Choose the animation */
+  animation-name: moveDown;
+  animation-direction: normal;
+  /* The animation’s duration */
+  animation-duration: 2000ms;
+  /* The number of times we want
+      the animation to run */
+  animation-iteration-count: 1;
+  /* Causes the animation to reverse
+      on every odd iteration */
+  animation-direction: normal;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+.moveUpDown{
+  /* Choose the animation */
+  animation-name: shake;
+  /* The animation’s duration */
+  animation-duration: 1000ms;
+  /* The number of times we want
+      the animation to run */
+  animation-iteration-count: infinite;
+  /* Causes the animation to reverse
+      on every odd iteration */
+  animation-direction: alternate;
+  animation-timing-function: ease-out;
+  animation-fill-mode: none;
+  animation-delay: 1s;
+}
+.moveUpDown1{
+  /* Choose the animation */
+  animation-name: shake;
+  /* The animation’s duration */
+  animation-duration: 4000ms;
+  /* The number of times we want
+      the animation to run */
+  animation-iteration-count: infinite;
+  /* Causes the animation to reverse
+      on every odd iteration */
+  animation-direction: alternate;
+  animation-timing-function: ease-out;
+  animation-fill-mode: none;
+  animation-delay: 1s;
+}
+.moveUpDown2{
+  /* Choose the animation */
+  animation-name: shake;
+  /* The animation’s duration */
+  animation-duration: 3800ms;
+  /* The number of times we want
+      the animation to run */
+  animation-iteration-count: infinite;
+  /* Causes the animation to reverse
+      on every odd iteration */
+  animation-direction: alternate;
+  animation-timing-function: ease-out;
+  animation-fill-mode: none;
+  animation-delay: 1.5s;
+}
+.moveUpDown3{
+  /* Choose the animation */
+  animation-name: shake;
+  /* The animation’s duration */
+  animation-duration: 4200ms;
+  /* The number of times we want
+      the animation to run */
+  animation-iteration-count: infinite;
+  /* Causes the animation to reverse
+      on every odd iteration */
+  animation-direction: alternate;
+  animation-timing-function: ease-out;
+  animation-fill-mode: none;
+  animation-delay: 0.6s;
+}
+.moveLR{
+  /* Choose the animation */
+  animation-name: moveLR;
+  /* The animation’s duration */
+  animation-duration: 8000ms;
+  /* The number of times we want
+      the animation to run */
+  animation-iteration-count: infinite;
+  /* Causes the animation to reverse
+      on every odd iteration */
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: none;
+  animation-delay: 0.5s;
+}
+.arrow_anim{
+    /* Choose the animation */
+  animation-name: moveUp;
+  /* The animation’s duration */
+  animation-duration: 200ms;
+  /* The number of times we want
+      the animation to run */
+  animation-iteration-count: 1;
+  /* Causes the animation to reverse
+      on every odd iteration */
+  animation-direction: normal;
+  animation-timing-function: linear;
+  animation-fill-mode: none;
+}
+
+@keyframes movingBox {
+    0% {
+      transform: translate(0, 0);
+      opacity: 0.3;
+    }
+  
+    25% {
+      opacity: 0.9;
+    }
+  
+    50% {
+      transform: translate(100px, 100px);
+      opacity: 0.2;
+    }
+  
+    100% {
+      transform: translate(30px, 30px);
+      opacity: 0.8;
+    }
+  }
+  @keyframes rotate_Both {
+    0% {
+      transform: rotate(-30deg);
+    }
+    100% {
+      transform: rotate(30deg);
+    }
+  }
+  @keyframes rotate_Right {
+    0%{
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(30deg);
+    }
+  }
+  /* rotate_Right 에 reverse 적용한거랑 같음*/
+  @keyframes rotate_Left {
+    0%{
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-30deg);
+    }
+  }
+  @keyframes rotate_Right_delay {
+    0%{
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(30deg);
+    }
+  }
+  /* rotate_Right 에 reverse 적용한거랑 같음*/
+  @keyframes rotate_Left_delay {
+    0%{
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-30deg);
+    }
+  }
+@keyframes FadeIn {
+	0% {
+		width : 0%;
+		opacity : 0;
+	}
+	100% {
+		width : 100%;
+		opacity : 1;
+	}
+}
+@keyframes FadeOut {
+	0% {
+		width : 100%;
+		opacity : 1;
+	}
+	100% {
+		width : 0%;
+		opacity : 0;
+	}
+}
+@keyframes moveUp {
+	0% {
+    transform: translateY(200%);
+	}
+	100% {
+    transform: translateY(-200%);
+	}
+}
+@keyframes moveDown {
+	0% {
+    transform: translateY(-150%);
+	}
+	100% {
+    transform: translateY(150%);
+	}
+}
+@keyframes Opacity {
+	0% {
+    opacity: 0;
+	}
+	100% {
+    opacity: 1;
+	}
+}
+@Keyframes shake{
+  0% {
+    transform: translateY(-30%);
+	}
+	50% {
+    transform: translateY(30%);
+  }
+  100% {
+    transform: translateY(-30%);
+	}
+}
+@Keyframes moveLR{
+  0% {
+    transform: translateX(-10vw);
+	}
+  100% {
+    transform: translateX(85vw);
+	}
+}
+
+/*test 튕기는 공*/
+@keyframes ball {
+  0% {
+      bottom:50px;
+  }
+  95% {
+      width: 100px;
+  }
+  to {
+      bottom:0px;
+      width:115px;
+      height:90px
+  } 
+}
+.ball{
+border-radius:50%;
+background:white;
+animation:ball 0.8s ease-in Infinite Alternate;
+}

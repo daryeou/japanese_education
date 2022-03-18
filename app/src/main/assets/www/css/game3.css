@@ -1,0 +1,46 @@
+.object {
+    position: relative;
+    display: grid;
+    top: 25%;
+    left: 20%;
+    width: 62%;
+    height: 80%;
+    margin: 0%;
+    grid-template-columns: 14% 24% 14% 14% 15% 20%;
+    grid-template-rows: repeat(auto-fit,minmax(30%,auto));
+    grid-column-gap: 0%;
+    grid-row-gap: 0%;
+    text-align: center;
+}
+.item>p{
+    position: absolute;
+    bottom:10%;
+    width:150%;
+    display: none;
+}
+.item>img{}
+
+.moveright2{
+    /* Choose the animation */
+    animation-name: moveRight2;
+    animation-direction: normal;
+    /* The animation’s duration */
+    animation-duration: 1000ms;
+    /* The number of times we want
+        the animation to run */
+    animation-iteration-count: 1;
+    /* Causes the animation to reverse
+        on every odd iteration */
+    animation-direction: normal;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+  }
+
+@Keyframes moveRight2{
+    0% {
+      transform: translateX(-100vw);
+      }
+    100% {
+      transform: translateX(0vw);
+      }
+  }

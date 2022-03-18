@@ -1,0 +1,53 @@
+/*#choice{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    width: 70%;
+    max-height: 100%;
+    display: none;
+    z-index: -1000;
+}*/
+
+.item{
+    transition: all ease 0.5s;
+}
+.item:hover{
+    transform: translateY(-10%);
+}
+
+#choice{
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: none;
+    z-index: 300;
+}
+#choice_{
+    position: absolute;
+    left:0;
+    right:0;
+    margin: 0 auto;
+    width: 64%;
+    max-height: 100%;
+}
+#finger1{
+    position: absolute;
+    width: 10%;
+    top: 20%;
+    left: 32%;
+}
+#finger2{
+    position: absolute;
+    width: 9%;
+    top: 20%;
+    right: 32%;
+}
+#exit{
+    position: absolute;
+    width: 9%;
+    top: -6%;
+    left: 76%;
+}

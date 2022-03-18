@@ -1,0 +1,126 @@
+.object {
+    position: relative;
+    top: 50%;
+    left: 47%;
+    display: grid;
+    width:45%;
+    padding: 0% 0% 0% 0%;
+    margin: 0%;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(auto-fit,minmax(10%,auto));
+    grid-gap: 0%;
+}
+.container8 {
+    position: absolute;
+    top: 5%;
+    left: 4%;
+    display: grid;
+    width:50%;
+    padding: 0% 0% 0% 0%;
+    margin: 0%;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(auto-fit,minmax(20%,auto));
+    grid-gap: 2%;
+}
+.button {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.button>*:not(.background):not(.height_center) {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+.paintAction{
+    
+}
+.item>p{
+    position: absolute;
+    top:60%;
+    width: 100%;
+}
+#tongs{
+    position:fixed; 
+    top:-40%; 
+    right:23%; 
+    width:17%;
+}
+
+@Keyframes movetongs {
+    0%{
+        content:url("../img/game/draw/집게_1.png");
+    }
+    10%{
+        transform: translate(0%,50%);
+        content:url("../img/game/draw/집게_3.png");
+    }
+    30% {
+        transform: translate(0%,0%);
+        content:url("../img/game/draw/집게_3.png");
+    }
+    40% {
+        content:url("../img/game/draw/집게_2.png");
+        transform: translate(-290%,0%);
+    }
+    51% {
+        content:url("../img/game/draw/집게_1.png");
+        transform: translate(-290%,0%);
+    }
+    90%{
+        content:url("../img/game/draw/집게_1.png");
+        transform: translate(-290%,0%);
+    }
+}
+@Keyframes moveball {
+    10% {
+        transform: translate(0%,0%);
+    }
+    30% {
+        transform: translate(0%,-230%);
+    }
+    40% {
+        transform: translate(-546%,-230%);
+    }
+    50% {
+        transform: translate(-546%,-230%);
+    }
+    70% {
+        opacity: 1;
+        transform: translate(-546%,-20%);
+    }
+    100%{
+        opacity: 0;
+        transform: translate(-546%,-20%);
+    }
+}
+.movetongs{
+    /* Choose the animation */
+  animation-name: movetongs;
+  /* The animation’s duration */
+  animation-duration: 15000ms;
+  /* The number of times we want
+      the animation to run */
+  animation-iteration-count: 1;
+  /* Causes the animation to reverse
+      on every odd iteration */
+  animation-direction: normal;
+  animation-timing-function: linear;
+  animation-fill-mode: none;
+}
+.moveball{
+    /* Choose the animation */
+  animation-name: moveball;
+  /* The animation’s duration */
+  animation-duration: 15000ms;
+  /* The number of times we want
+      the animation to run */
+  animation-iteration-count: 1;
+  /* Causes the animation to reverse
+      on every odd iteration */
+  animation-direction: normal;
+  animation-timing-function: linear;
+  animation-fill-mode: none;
+}

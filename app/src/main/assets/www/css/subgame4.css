@@ -1,0 +1,158 @@
+.container5 {
+    position: absolute;
+    top:0px;
+    left:0px;
+    display: grid;
+    width:100%;
+    max-height:100%;
+    margin: 0%;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(auto-fit,minmax(30%,auto));
+    grid-gap: 5%;
+    padding: 15% 5% 30% 5%;
+}
+
+.container5>.item>img{
+    max-width:60% !important;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right: auto;
+}
+.container5#balloon {
+    position: absolute;
+    top:0px;
+    left:0px;
+    display: grid;
+    width:100%;
+    height:100%;
+    margin: 0%;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(auto-fit,minmax(30%,auto));
+    padding: 0% 0% 0% 0%;
+    z-index:-1;
+}
+.container5#balloon>div{ 
+    position: absolute;
+    top:0px;
+    left:800px;
+    width:10%
+}
+#result>*{
+    z-index: 3;
+}
+
+  .move1{
+    /* Choose the animation */
+    animation-name: shake1;
+    /* The animation’s duration */
+    animation-duration: 14s;
+    /* The number of times we want
+        the animation to run */
+    animation-iteration-count: infinite;
+    /* Causes the animation to reverse
+        on every odd iteration */
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-fill-mode: none;
+    animation-delay: 0s;
+  }
+  .move2{
+    /* Choose the animation */
+    animation-name: shake2;
+    /* The animation’s duration */
+    animation-duration: 14s;
+    /* The number of times we want
+        the animation to run */
+    animation-iteration-count: infinite;
+    /* Causes the animation to reverse
+        on every odd iteration */
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-fill-mode: none;
+    animation-delay: 0s;
+  }
+  .move3{
+    /* Choose the animation */
+    animation-name: shake3;
+    /* The animation’s duration */
+    animation-duration: 14s;
+    /* The number of times we want
+        the animation to run */
+    animation-iteration-count: infinite;
+    /* Causes the animation to reverse
+        on every odd iteration */
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-fill-mode: none;
+    animation-delay: 0s;
+  }
+  .move1_{
+    /* Choose the animation */
+    animation-name: shake1;
+    /* The animation’s duration */
+    animation-duration: 14s;
+    /* The number of times we want
+        the animation to run */
+    animation-iteration-count: infinite;
+    /* Causes the animation to reverse
+        on every odd iteration */
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-fill-mode: none;
+    animation-delay: 7s;
+  }
+  .move2_{
+    /* Choose the animation */
+    animation-name: shake2;
+    /* The animation’s duration */
+    animation-duration: 14s;
+    /* The number of times we want
+        the animation to run */
+    animation-iteration-count: infinite;
+    /* Causes the animation to reverse
+        on every odd iteration */
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-fill-mode: none;
+    animation-delay: 7s;
+  }
+  .move3_{
+    /* Choose the animation */
+    animation-name: shake3;
+    /* The animation’s duration */
+    animation-duration: 14s;
+    /* The number of times we want
+        the animation to run */
+    animation-iteration-count: infinite;
+    /* Causes the animation to reverse
+        on every odd iteration */
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-fill-mode: none;
+    animation-delay: 7s;
+  }
+  @Keyframes shake1{
+    0%{
+      transform: translate(0%,-30%);
+    }
+    100%{
+      transform: translate(200vw,-30%);
+    }
+  }
+  @Keyframes shake2{
+    0%{
+      transform: translate(0%,30%);
+    }
+    100%{
+      transform: translate(200vw,30%);
+    }
+  }
+  @Keyframes shake3{
+    0%{
+      transform: translate(0%,-0%);
+    }
+    100%{
+      transform: translate(200vw,-0%);
+    }
+  }

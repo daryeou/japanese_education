@@ -1,0 +1,40 @@
+.block {
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+.dice-count, .dice-count input {
+  font-size: 20px;
+}
+.box {
+  position: absolute;
+  width: auto;
+  text-align: center;
+  height: 100% !important;
+  width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-contents: center;
+}
+#dice-box1 {
+  position: absolute !important;
+  height: 100%;
+  width:99%;
+  background-position: center;
+  background-size: contain;
+  padding: 5%;
+}
+.roll {
+  height: 80px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  margin: 10px 0px;
+}
+.center_p {
+  text-align: center;
+}
+

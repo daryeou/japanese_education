@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>일본어 교육 앱</title>
+    <link rel="stylesheet" type="text/css" href="css/MainStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/anim.css">
+    <link rel="preload" href="img/index/cuma1.png" as="image">
+    <link rel="preload" href="img/index/cuma2.png" as="image">
+    <link rel="preload" href="img/index/cuma3.png" as="image">
+    <link rel="stylesheet" type="text/css" href="css/cuma.css">
+    <script async src="js/type_check.js"></script>
+    <script async src="js/default.js"></script>
+    <script defer src="js/cuma_anim.js"></script>
+    <script>
+    </script>
+</head>
+
+<body>
+    <!-- <iframe src="img/game/봄소풍(편집).wav" type="audio/wav" allow="autoplay" style="display:none" id="iframeAudio">
+    </iframe>  -->
+    <audio autoplay loop id="audio_play">
+        <source src='img/game/봄소풍(편집).wav' type="audio/wav">
+    </audio> 
+    <div id="index" class="field">
+        <img id="background" class="background " src="img/index/main_background.png" alt="">
+            <div class="btleft btbottom" style="bottom:20%;"><img src="img/index/music_button.png" alt="" onclick="stop()"></div>
+            <div class="btleft btbottom"><img src="img/index/explain_button.png" alt="" onclick="location.href='./license.html'"></div>
+            <div class="btright btbottom"><img src="img/index/start2.png" alt="" onclick="location.href='./main2.html';"></div>
+    </div>
+
+    </div>
+    <img class="cuma" src="img/index/cuma1.png" alt="">
+</body>
+</html>
+
+<!--editor.renameOnType-->

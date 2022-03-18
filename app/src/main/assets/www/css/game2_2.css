@@ -1,0 +1,38 @@
+#container5 {
+    position: relative;
+    display: grid;
+    width:100%;
+    height: 40%;
+    padding: 10% 10% 0% 10%;
+    margin: 0%;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(auto-fit,minmax(30%,auto));
+    grid-gap: 10%;
+}
+#container5_ {
+    position: absolute;
+    display: grid;
+    width:100%;
+    height: 40%;
+    left:0%;
+    bottom:20%;
+    padding: 10% 10% 0% 10%;
+    margin: 0%;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(auto-fit,minmax(30%,auto));
+    grid-gap: 3%;
+}
+.paintAction{
+    
+}
+.item>p{
+    position: absolute;
+    top:60%;
+    width: 100%;
+}
+.container5{
+    z-index: 1;
+}
+.basket{
+    z-index: 0;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>일본어 교육 앱</title>
+
+    <link rel="stylesheet" type="text/css" href="css/MainStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/anim.css">
+    <link rel="stylesheet" type="text/css" href="css/main2.css">
+    <link rel="preload" href="img/game/1.png" as="image">
+    <link rel="preload" href="img/game/2.png" as="image">
+    <link rel="preload" href="img/game/3.png" as="image">
+    <link rel="preload" href="img/game/4.png" as="image">
+    <link rel="preload" href="img/game/5.png" as="image">
+    <link rel="stylesheet" type="text/css" href="css/cuma.css">
+    <script src="js/cuma_show.js"></script>
+    <script src="js/type_check.js"></script>
+    <script src="js/default.js"></script>
+    <script src="js/main2_dev.js"></script>
+    <script>
+    </script>
+</head>
+
+<body>
+    <audio id='audio' src='img/game/봄소풍(편집).wav'></audio> 
+    <iframe id="frame" src="" frameborder="0"></iframe>
+    <div id="index" class="field">
+        <img id="background" class="background" src="img/mainmenu/main_2(background).png" alt="">
+        <div id="container" class="container">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+        <div id= "choice">
+            <img id="choice_" src="img/index/learn_play(background)_.png">
+            <img id="finger1" src="img/index/finger1_ani_1.png">
+            <img id="finger2" src="img/index/finger_2_ani_2.png">
+            <img id="exit" class="" src="img/index/exit.png">
+        </div>
+    </div>
+    <img id="go_home" class="bt bttop btright none" src="img/index/home_button.png" onclick="go_page('main2.html')">
+    <img id="go_action" class="bt btright btbottom" src="img/index/down_button.png" onclick="go_page('main3.html')">
+    <div id="cuma_div" class="none"></div>
+</body>
+
+</html>
+
+<!--editor.renameOnType-->

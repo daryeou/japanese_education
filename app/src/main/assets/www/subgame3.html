@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>일본어 교육 앱</title>
+
+    <link rel="stylesheet" type="text/css" href="css/MainStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/anim.css">
+    <link rel="stylesheet" type="text/css" href="css/subgame3.css">
+    <link rel="stylesheet" type="text/css" href="css/dice.css">
+    <script type="text/javascript" src="img/game/boardgame/boardgame.js"></script>
+    <script src="https://unpkg.com/roll-a-die@1.3.0/dist/roll-a-die.js"></script>
+    <script src="js/type_check.js"></script>
+    <script src="js/default.js"></script>
+    <script src="js/subgame3.js"></script>
+    <script>
+    </script>
+</head>
+
+<body>
+    <div id="index" class="field">
+        <img id="background" class="background" src="img/game/boardgame/background.png" alt="">
+        <div id="content_box"><p id="content"></p></div>
+        <dic id="container_bt">
+            <div id="dice1" data-num=0 class="item"><p>player1</p></div>
+            <div id="dice2" data-num=1 class="item"><p>player2</p></div>
+        </dic>
+        <div id="container2" class="star">
+            <div class="item">
+                <div id="dice_box" class="box">
+                    <span id="exp_box"><p>주사위를 굴려주세요!</p></span>
+                    <div id="dice-box1"></div>
+                    <span class="center_p"><p id="player_state">1P:     2P:   </p></span>
+                </div>
+            </div>
+        </div> 
+        
+
+    </div>
+</body>
+
+</html>
+
+<!--editor.renameOnType-->

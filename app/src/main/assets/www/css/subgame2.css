@@ -1,0 +1,89 @@
+#container10 {
+    position: absolute;
+    top: 40%;
+    display: grid;
+    width:100%;
+    height:30%;
+    margin: 0%;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(auto-fit,minmax(10%,auto));
+    padding: 0% 10% 0% 10%;
+}
+#container10_{
+    position: absolute;
+    left: 34%;
+    top: 15%;
+    display: grid;
+    width: 17%;
+    height: 69%;
+    margin: 0%;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(auto-fit,minmax(10%,auto));
+    padding: 0% 0% 0% 0%;
+    z-index: 2;
+}
+.item{
+    position: fixed;
+    width:8%;
+    height:17%;
+}
+#menu {
+    position: absolute;
+    top: 15%;
+    left: 43%;
+    display: grid;
+    width: 14%;
+    height: 61%;
+    margin: 0%;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(auto-fit,minmax(10%,auto));
+    grid-row-gap: 10%;
+}
+.button{
+    width:100%;
+    height:100%;
+}
+.button>*{
+    width:100%;
+    height:100%;
+}
+.opacityAlternate2 {
+    /* Choose the animation */
+    animation-name: Opacity2;
+    /* The animation’s duration */
+    animation-duration: 1000ms;
+    /* The number of times we want
+        the animation to run */
+    animation-iteration-count: 1;
+    /* Causes the animation to reverse
+        on every odd iteration */
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+  }  
+  @keyframes Opacity2 {
+	0% {
+        content:url("../img/game/refrigerator/냉장고애니_1.png");
+        opacity: 0;
+    }
+    20%{
+        content:url("../img/game/refrigerator/냉장고애니_1.png");
+        opacity: 1;
+    }
+    40%{
+        content:url("../img/game/refrigerator/냉장고애니_1.png");
+        opacity: 0;
+    }
+	60% {
+        content:url("../img/game/refrigerator/냉장고애니_2.png");
+        opacity: 0;
+    }
+    80% {
+        content:url("../img/game/refrigerator/냉장고애니_2.png");
+        opacity: 1;
+    }
+    100% {
+        content:url("../img/game/refrigerator/냉장고애니_2.png");
+        opacity: 0;
+	}
+}

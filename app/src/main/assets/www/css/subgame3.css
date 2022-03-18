@@ -1,0 +1,89 @@
+/* #container2{ 
+    position: absolute;
+    top:21%;
+    display: grid;
+    width: 100%;
+    height:20%;
+    margin: 0%;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(auto-fit,minmax(10%,auto));
+    padding: 0% 21% 0% 21%;
+}
+#container3 {
+    position: absolute;
+    top: 55%;
+    display: grid;
+    width:100%;
+    height:30%;
+    margin: 0%;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(auto-fit,minmax(10%,auto));
+    padding: 0% 10% 0% 10%;
+} */
+#container_bt {
+    position: absolute;
+    bottom: 38%;
+    right: 9.5%;
+    display: grid;
+    width: 18%;
+    height: 10%;
+    margin: 0%;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(auto-fit,minmax(50%,auto));
+    grid-template-areas: "bt bt";
+}
+
+#container_bt>.item{
+    background-image: url("../img/game/boardgame/event.png");
+    grid-area: 'bt';
+    text-align: center;
+    height: 100% !important;
+    background-position: center;
+}
+#container_bt>.item>p{
+    width:100% !important;
+    
+}
+
+#container2 {
+    position: absolute;
+    bottom: 7%;
+    right: 9%;
+    display: grid;
+    width: 18.6%;
+    height: 31%;
+    margin: 0%;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(auto-fit,minmax(100%,auto));
+    grid-template-areas: "dice";
+}
+
+#container2>.item:nth-child(1){
+    grid-area: dice;
+}
+
+#content_box{
+    width:38% !important;
+    height:10%;
+    position: absolute;
+    left:33.5%;
+    bottom:7%;
+    display: flex;
+    align-items: center;
+}
+
+#content{
+    color: white;
+    text-align: center;
+    position: absolute;
+    height: auto;
+    width: 100%;
+    font-size: 130% !important;
+}
+
+.button{
+    width:100%;
+}
+.button>*{
+    width:100%;
+}

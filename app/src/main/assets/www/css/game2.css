@@ -1,0 +1,26 @@
+#container2{ 
+    position: relative;
+    top:27%;
+    left:5%;
+    display: grid;
+    width:90%;
+    height:30%;
+    margin: 0%;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(auto-fit,minmax(30%,auto));
+    grid-column-gap: 10%;
+    padding: 0% 30% 0% 20%;
+}
+#container3 {
+    position: relative;
+    top: 25%;
+    left:5%;
+    display: grid;
+    width:90%;
+    height:30%;
+    margin: 0%;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(auto-fit,minmax(30%,auto));
+    grid-column-gap: 10%;
+    padding: 0% 20% 0% 20%;
+}

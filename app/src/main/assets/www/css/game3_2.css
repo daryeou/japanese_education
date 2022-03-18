@@ -1,0 +1,27 @@
+.object {
+    position: relative;
+    display: grid;
+    width:100%;
+    height: 30%;
+    top: 60%;
+    padding-left:13%;
+    padding-right: 10%;
+    margin: 0%;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(auto-fit,minmax(20%,auto));
+    grid-gap: 2%;
+}
+.paintAction{
+    
+}
+.item>p{
+    position: absolute;
+    top:60%;
+    width: 100%;
+}
+.container6{
+    z-index: 1;
+}
+.basket{
+    z-index: 0;
+}

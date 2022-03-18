@@ -1,0 +1,38 @@
+.object {
+    position: relative;
+    display: grid;
+    top: 74%;
+    width:100%;
+    height: 18%;
+    padding: 0% 15% 0% 15%;
+    margin: 0%;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(auto-fit,minmax(30%,auto));
+    grid-column-gap: 4%;
+}
+.paintAction{
+}
+.item>p{
+    position: absolute;
+    top:60%;
+    width: 100%;
+}
+.container5{
+    z-index: 1;
+}
+.basket{
+    z-index: 0;
+}
+.man_img{
+    position: absolute;
+    height:60%;
+    left:0;
+    right:0;
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pointer1,.pointer2{
+    position: fixed; 
+    z-index: 1;
+}

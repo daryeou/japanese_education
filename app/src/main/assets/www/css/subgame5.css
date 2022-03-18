@@ -1,0 +1,23 @@
+.object {
+    position: relative;
+    top: 50%;
+    display: grid;
+    width:100%;
+    height: 30%;
+    padding: 10% 10% 0% 10%;
+    margin: 0%;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(auto-fit,minmax(10%,auto));
+    grid-gap: 15%;
+}
+.paintAction{
+    
+}
+.item>p{
+    position: absolute;
+    top:60%;
+    width: 100%;
+}
+.temp_size{
+    grid-gap:21% !important;
+}
