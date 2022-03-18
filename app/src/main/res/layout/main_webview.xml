@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/Explanation"
+        android:layout_width="170dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:autoLink="web"
+        android:background="@drawable/roundrect"
+        android:linksClickable="true"
+        android:padding="10dp"
+        android:text="터치 환경에서 제공됩니다. 스마트폰으로 접속해주세요."
+        android:textSize="10dp" />
+</LinearLayout>

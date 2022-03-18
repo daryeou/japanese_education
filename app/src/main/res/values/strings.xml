@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">쿠마일어탐험</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="maincomment"></string>
+    <string name="introcomment">ver.1.0</string>
+    <string name="exp"></string>
+    <string name="update">업데이트</string>
+</resources>
